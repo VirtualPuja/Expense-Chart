@@ -1,0 +1,91 @@
+html {
+  font-family: "DM Sans", sans-serif;
+  background-color: #f7e8d3;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --primary-color: #ff8d93;
+  --active-color: #54d6d6;
+  --textone-color: #080909;
+  --texttwo-color: #fcfefe;
+  --divtwo-color: #fbe8f6;
+  --light-grey: #888488;
+}
+
+.balance {
+  background-color: var(--primary-color);
+  width: 450px;
+  height: 100px;
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.weekly-balance {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.bal-section {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.spending-week {
+  background-color: var(--texttwo-color);
+  width: 450px;
+  height: 500px;
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.week {
+  height: 65%;
+}
+
+h4 {
+  display: inline;
+}
+hr {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2px;
+  background-color: lightgray;
+}
+
+.divtwo-title {
+  font-size: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 14px;
+  color: var(--light-grey);
+  font-weight: normal;
+}
+
+.weekly-total {
+  margin-top: -10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.left {
+  padding-left: 20px;
+}
