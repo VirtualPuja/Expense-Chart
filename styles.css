@@ -19,6 +19,9 @@ body {
 }
 
 .balance {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: var(--primary-color);
   width: 450px;
   height: 100px;
@@ -33,18 +36,41 @@ h2 {
   font-weight: normal;
 }
 
-.weekly-balance {
+.monthly-balance {
   font-size: 25px;
   font-weight: bold;
   margin-top: -10px;
 }
 
 .bal-section {
-  padding-left: 20px;
   padding-top: 5px;
 }
 
-.spending-week {
+.svg {
+  margin-top: 0.01em;
+}
+
+i {
+  font-size: 80px;
+  color: #fcfefe;
+}
+
+.svg:hover {
+  animation-name: rotate;
+  animation-iteration-count: 5;
+  animation-duration: 5s;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.chart-div {
   background-color: var(--texttwo-color);
   width: 450px;
   height: 500px;
@@ -54,38 +80,59 @@ h2 {
   margin-top: 50px;
 }
 
-.week {
-  height: 65%;
-}
-
-h4 {
-  display: inline;
-}
-hr {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 2px;
-  background-color: lightgray;
-}
-
-.divtwo-title {
+h1 {
   font-size: 20px;
   text-align: center;
+  padding-top: 10px;
 }
 
-h3 {
-  font-size: 14px;
-  color: var(--light-grey);
-  font-weight: normal;
+hr {
+  background-color: lightgray;
+  width: 80%;
 }
 
-.weekly-total {
-  margin-top: -10px;
-  font-size: 25px;
-  font-weight: bold;
+.js-chart {
+  padding-top: 75%;
+}
+
+.bottom-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .left {
-  padding-left: 20px;
+  margin-left: 10px;
 }
+
+h3 {
+  font-weight: normal;
+  font-size: 16px;
+  color: grey;
+}
+.monthly-total {
+  margin-top: -15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.right {
+  margin-right: 10px;
+}
+
+.per {
+  margin-top: -18px;
+  font-size: 16px;
+  color: grey;
+}
+
+h4 {
+  text-align: right;
+}
+
+h5 {
+  text-align: center;
+  font-weight: normal;
+}
+
+/**https://www.w3schools.com/ai/ai_chartjs.asp**/
