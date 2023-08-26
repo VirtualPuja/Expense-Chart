@@ -18,6 +18,7 @@
     <title>Frontend Mentor | Expenses Chart Component</title>
   </head>
   <body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <main>
       <div class="balance">
         <div class="bal-section">
@@ -30,7 +31,9 @@
       </div>
       <div class="chart-div">
         <h1>Spending - Last 7 days</h1>
-        <div class="js-chart"></div>
+        <div class="js-chart">
+          <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+        </div>
         <hr />
         <div class="bottom-data">
           <div class="left">
@@ -46,5 +49,5 @@
       <div class="attribution"><h5>Coded by <a href="#">Virtual Puja.</h5></a></div>
     </main>
   </body>
-  <script src="expenses.js"></script>
+  <script src="expenses.js"></script>  
 </html>
