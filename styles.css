@@ -92,9 +92,8 @@ hr {
 }
 
 .js-chart {
-  padding-top: 75%;
+  padding-top: 20%;
 }
-
 .bottom-data {
   display: flex;
   flex-direction: row;
