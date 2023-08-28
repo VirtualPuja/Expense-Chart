@@ -134,4 +134,15 @@ h5 {
   font-weight: normal;
 }
 
+@media only screen and (max-width: 600px) {
+  .balance {
+    width: 350px;
+  }
+  .chart-div {
+    width: 350px;
+    height: 400px;
+    margin-top: 20px;
+  }
+}
+
 /**https://www.w3schools.com/ai/ai_chartjs.asp**/
