@@ -21,7 +21,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Chart.js --- (https://www.chartjs.org/docs/4.4.0/)
 
 ### Useful resources
